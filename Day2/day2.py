@@ -34,6 +34,7 @@ def part_two(data_point):
         modified_data = data_point[:i] + data_point[i+1:]
         if part_one(modified_data):
             return True
+        break
 
     return False
 # for data_points in int_data:
